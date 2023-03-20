@@ -2,7 +2,7 @@ from urllib.request import urlopen
 from urllib.parse import quote, unquote
 # 由于学院内部需求，如果访问量过大，会切换为RNN网络，以减小压力。 每日10~12点维护
 def TCMSymNorm(original_terms):
-    normal_url = 'http://114.55.210.8:5902/?'
+    normal_url = '维护中...'
     converted_term = []
     original_terms = [quote(x) for x in original_terms]
     if len(original_terms) > 0:
